@@ -1,0 +1,26 @@
+#chessboard, .blk, .whte {
+	display:block;
+	padding:0px;
+	margin:0px;
+}
+
+#chessboard {
+	width:384px;
+	height:384px;
+	border:4px solid black;
+}
+
+.blk, .whte {
+	width:48px;
+	height:48px;
+	float:left;
+}
+
+.blk {
+	background-color:#000000;
+}
+
+.whte {
+	background-color:#FFFFFF;
+}
+
