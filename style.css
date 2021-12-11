@@ -1,3 +1,4 @@
+/* Chess */
 #chessboard, .blk, .whte {
 	display:block;
 	padding:0px;
@@ -23,12 +24,7 @@
 .whte {
 	background-color:#FFFFFF;
 }
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-  }
+/* Flag */
   .container {
 	background-color: #FFFFFF;
 	padding: 10px;
@@ -37,18 +33,45 @@
 	grid-template-rows: auto;
 	grid-gap: 10px;
   }
-  .item {
+  .items {
 	background-color: red;
 	padding: 20px;
 	margin: 10px;
 	color: white;
 	font-size: large;
+	border: solid black;
   }
-  img {
+   .fuse {
 	position: absolute;
-	top: 20px;
-	left: 20px;
+	top: 28px;
+	left: 28px;
 	height: 45%;
-	z-index: 999;
+	z-index: 999; 
+  }  
+  /* Medium */
+   #Products {
+	display: grid;
+	grid-auto-columns: max-content;
+	grid-auto-flow: dense;
+	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 25px;
+	grid-template-columns: repeat(4, 2fr);
+	margin: 60px auto;
+	max-width: 800px;
+  }
+  .product {
+	display: block;
+	border:5px solid;
+	border-color:black;
+	text-align: center;
+	
+  }
+  .loba {
+	width:120px;
+	height: 100px;
   }
   
+  a{
+   text-decoration:none;
+	color:red;
+  } 
